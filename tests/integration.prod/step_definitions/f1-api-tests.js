@@ -7,8 +7,6 @@ var apickli = require('apickli');
 var url = 'seandavis-test.apigee.net/v1/f1';
 
 var env = process.env.NODE_ENV || 'dev';
-// debug
-console.log('running on ' + env + ' environment');
 
 module.exports = function() {
     // cleanup before every scenario
