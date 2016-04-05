@@ -1,6 +1,6 @@
 //SetTargetUrl.js
 
-var season = context.getVariable("request.queryparam.season");
+var season = context.getVariable("request.queryparam.year");
 var driver = context.getVariable("request.queryparam.driver");
 var position = context.getVariable("request.queryparam.position");
 var baseUrl = context.getVariable("target.url");
