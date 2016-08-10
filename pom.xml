@@ -78,7 +78,7 @@
 		<plugins>			
  
 			<!-- run jslint -->
-			<plugin>
+			<!--plugin>
 				<groupId>com.cj.jshintmojo</groupId>
 				<artifactId>jshint-maven-plugin</artifactId>
 				<version>1.6.0</version>
@@ -101,7 +101,7 @@
 					</excludes>
 					<reporter>jslint</reporter>
 				</configuration>
-			</plugin>
+			</plugin-->
 			
 			<!-- copy the full apiproxy folder to target folder -->
 			<plugin>
