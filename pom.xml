@@ -196,7 +196,7 @@
 							</environmentVariables>
 							<executable>node</executable>
 							<commandlineArgs>
-								cucumber-js tests/integration.${apickli.env}
+								cucumber.js tests/integration.${apickli.env}
 							</commandlineArgs>
 						</configuration>
 					</execution>
